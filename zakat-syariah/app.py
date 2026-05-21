@@ -75,8 +75,54 @@ st.markdown("""<div style="background:rgba(212,175,122,0.08);border:1px solid rg
     <p style="margin:0;color:rgba(255,255,255,0.8)">👈 <strong style="color:#d4af7a">Pilih menu di sidebar kiri</strong> untuk mulai menggunakan fitur kalkulator zakat dan keuangan syariah.</p>
 </div>""", unsafe_allow_html=True)
 
-st.markdown("<br><br>", unsafe_allow_html=True)
-st.markdown("""<div style="text-align:center;color:rgba(255,255,255,0.25);font-size:0.78rem;border-top:1px solid rgba(255,255,255,0.07);padding-top:1rem">
-    ZakatKu · Prodi S1 Kewirausahaan · Universitas Muhammadiyah Metro · 
-    <em>Nisab mengacu pada harga emas/perak terkini — selalu verifikasi ke lembaga zakat resmi (BAZNAS)</em>
+st.markdown("<br>", unsafe_allow_html=True)
+
+st.markdown("""
+<div style="
+    background: linear-gradient(135deg, rgba(249,199,79,0.13), rgba(249,115,22,0.10));
+    border: 2px solid rgba(249,199,79,0.55);
+    border-radius: 16px;
+    padding: 1.6rem 1.8rem;
+    margin-bottom: 1.5rem;
+">
+    <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom:0.9rem;">
+        <span style="font-size:1.5rem">⚠️</span>
+        <span style="font-size:1.15rem; font-weight:800; color:#f9c74f; letter-spacing:0.5px;">DISCLAIMER — Penting untuk Dibaca</span>
+    </div>
+    <p style="color:#ffffff; font-size:0.97rem; font-weight:600; margin:0 0 0.9rem 0; line-height:1.6;">
+        Aplikasi ini bersifat <strong style="color:#f9c74f">EDUKATIF</strong> untuk mahasiswa kewirausahaan.
+        Perhitungan yang ditampilkan merupakan panduan umum dan <u>tidak menggantikan fatwa atau keputusan resmi lembaga zakat</u>.
+    </p>
+    <p style="color:#f0e6cc; font-size:0.93rem; font-weight:600; margin:0 0 0.6rem 0;">
+        Untuk keputusan zakat yang sah, selalu konsultasikan dengan:
+    </p>
+    <div style="display:flex; flex-direction:column; gap:0.5rem;">
+        <div style="display:flex; align-items:center; gap:0.75rem; background:rgba(255,255,255,0.07); border-radius:10px; padding:0.6rem 1rem;">
+            <span style="font-size:1.2rem">🏛️</span>
+            <div>
+                <div style="color:#ffffff; font-weight:700; font-size:0.92rem;">BAZNAS — Badan Amil Zakat Nasional</div>
+                <div style="color:rgba(255,255,255,0.6); font-size:0.80rem;">baznas.go.id · Lembaga resmi negara pengelola zakat</div>
+            </div>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.75rem; background:rgba(255,255,255,0.07); border-radius:10px; padding:0.6rem 1rem;">
+            <span style="font-size:1.2rem">📜</span>
+            <div>
+                <div style="color:#ffffff; font-weight:700; font-size:0.92rem;">Majelis Ulama Indonesia (MUI)</div>
+                <div style="color:rgba(255,255,255,0.6); font-size:0.80rem;">mui.or.id · Rujukan fatwa dan hukum Islam di Indonesia</div>
+            </div>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.75rem; background:rgba(255,255,255,0.07); border-radius:10px; padding:0.6rem 1rem;">
+            <span style="font-size:1.2rem">🕌</span>
+            <div>
+                <div style="color:#ffffff; font-weight:700; font-size:0.92rem;">Ulama atau Ustadz Terpercaya Setempat</div>
+                <div style="color:rgba(255,255,255,0.6); font-size:0.80rem;">Termasuk dosen atau pembimbing syariah di lingkungan UM Metro</div>
+            </div>
+        </div>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""<div style="text-align:center;color:rgba(255,255,255,0.3);font-size:0.78rem;border-top:1px solid rgba(255,255,255,0.07);padding-top:1rem">
+    ZakatKu · Prodi S1 Kewirausahaan · Universitas Muhammadiyah Metro ·
+    <em>Nisab mengacu pada harga emas terkini — selalu verifikasi ke lembaga zakat resmi</em>
 </div>""", unsafe_allow_html=True)
